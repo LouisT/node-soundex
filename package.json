@@ -17,7 +17,7 @@
         }
     ],
     "keywords": [
-        "soundex",
+        "soundex"
     ],
     "description": "Generate a soundex index for a word.",
     "engine": "node => 0.6",
