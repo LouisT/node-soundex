@@ -17,15 +17,11 @@
         }
     ],
     "keywords": [
-<<<<<<< HEAD
         "soundex",
         "index",
         "text",
         "phonetic",
         "algorithm"
-=======
-        "soundex"
->>>>>>> 0db1f9054a42140d78965d9774886d8741c98463
     ],
     "description": "Generate a soundex index for a word.",
     "engine": "node => 0.6",
