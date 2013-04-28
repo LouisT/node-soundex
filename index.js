@@ -10,7 +10,7 @@
               keys = Object.keys(map).reverse(),
               build = [split.splice(0,1)[0]],
               slen = split.length,
-              max = (scale?((max=~~(str.length*2/4.4))>3?max:3):3);
+              max = (scale?((max=~~(str.length*2/4.4))>4?max:4):4);
           for (var index = 0; build.length < max && index <= slen; index++) {
               keys.map(function(key) {
                   if (key.indexOf(split[index]) !== -1 && split[index+1] !== split[index]) {
@@ -18,6 +18,6 @@
                   };
               });
           };
-          return build.join('')+(new Array(max).join('0')).slice(build.length);
+          return build.join('')+(new Array(max+1).join('0')).slice(build.length);
   });
 })((typeof exports!=='undefined'?function(fn){module.exports=fn;}:function(fn){this['Soundex']=fn;}));

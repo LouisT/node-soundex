@@ -23,7 +23,6 @@ Usage:
        console.log('Hilbert: '+Soundex('Hilbert')+' - Heilbronn: '+Soundex('Heilbronn'));
        console.log('Lukasiewicz: '+Soundex('Lukasiewicz')+' - Lissajous: '+Soundex('Lissajous'));
 
-
     Browser:
        <script src="./soundex.js"></script>
        <script>
