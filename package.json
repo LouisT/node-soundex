@@ -1,6 +1,6 @@
 {
     "name": "soundex",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "author": {
         "name": "Louis T.",
         "email": "louist@ltdev.im",
@@ -18,6 +18,10 @@
     ],
     "keywords": [
         "soundex",
+        "index",
+        "text",
+        "phonetic",
+        "algorithm"
     ],
     "description": "Generate a soundex index for a word.",
     "engine": "node => 0.6",
