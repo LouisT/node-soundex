@@ -1,0 +1,25 @@
+{
+    "name": "soundex",
+    "version": "0.1.0",
+    "author": {
+        "name": "Louis T.",
+        "email": "louist@ltdev.im",
+        "url": "http://github.com/LouisT/node-soundex"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/LouisT/node-soundex.git"
+    },
+    "licenses": [
+        {
+          "type": "unlicensed",
+          "url": "http://unlicense.org/"
+        }
+    ],
+    "keywords": [
+        "soundex",
+    ],
+    "description": "Generate a soundex index for a word.",
+    "engine": "node => 0.6",
+    "main": "index.js"
+}
