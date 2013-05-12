@@ -1,5 +1,5 @@
 /*
-  Soundex - v0.2.0 - Node.js & Browser
+  Soundex - v0.2.1 - Node.js & Browser
   By Louis T. <louist@ltdev.im>
   https://github.com/LouisT/node-soundex/
 */

@@ -1,4 +1,4 @@
-Soundex (v0.2.0)
+Soundex (v0.2.1)
 ======
 
 Install: npm install soundex
@@ -20,7 +20,7 @@ Usage:
  
           To provide MySQL compatability, I've added a third argument:
           Example: Soundex('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum.',true,true);
-          Returns: L6512534623532523631252435453635 // 32 chars long: ~~(length*2/2)
+          Returns: L6512534623532523631252435453635 // 32 chars long, build length.
           MySQL:   SELECT SOUNDEX('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum.'); 
 
     Node.js:
