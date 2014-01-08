@@ -44,3 +44,7 @@ Usage:
           alert('(MySQL) Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum.\n'+
                  Soundex('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum.',true,true));
        </script>
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/LouisT/node-soundex/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
